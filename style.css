@@ -1,0 +1,68 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.HeaderText{
+    text-align: center;
+    margin: 50px 5px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration-color: rgb(255, 215, 0);
+}
+
+.Boxes{
+    display: grid;
+    width: 100%;
+    height: calc(50vh - 50px);
+    place-items: center;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.input-box{
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.50em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    color: black;
+}
+
+.select-box{
+    font-size: 16px;
+    font-size: max(16px,1em);
+    font-family: inherit;
+    padding: 0.50em 0.5em;
+    appearance: unset;
+}
+
+.ans-text{
+    width: 100%;
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: bold;
+    text-align: right;
+}
+.get-ans{
+    background: rgb(255, 215, 0);
+    border: none;
+    color: black;
+    width: 100px;
+    font-weight: bold;
+    padding: 10px 6px;
+    
+}
+#ANS{
+    color: rgb(255, 215, 0);
+}
